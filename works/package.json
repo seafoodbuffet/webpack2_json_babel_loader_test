@@ -1,0 +1,15 @@
+{
+  "name": "t",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/webpack -d && node build/bundle.js"
+  }
+}
